@@ -21,6 +21,7 @@ This project is used to validate encode/decode workflows built on Direct3D 11 an
 - Make sure all submodules are initialized before building.
 
 # Clone
+- Clone submodules:
 ```bash
 git clone --recurse-submodules https://github.com/KommyButterCream/D3D11NvCodecApp.git
 '''
