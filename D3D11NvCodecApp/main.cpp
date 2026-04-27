@@ -1,5 +1,5 @@
-﻿#include "../Modules/NvCodec/NvEncode/D3D11NvEncoder.h"
-#include "../Modules/NvCodec/NvDecode/D3D11NvDecoder.h"
+﻿#include "../../../Module/NvCodec/NvEncode/D3D11NvEncoder.h"
+#include "../../../Module/NvCodec/NvDecode/D3D11NvDecoder.h"
 
 #include <d3d11.h>
 #include <dxgi.h>
@@ -12,7 +12,6 @@
 #include <memory>
 #include <string>
 #include <vector>
-
 
 #pragma comment(lib, "d3d11.lib")
 

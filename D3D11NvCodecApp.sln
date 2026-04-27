@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37203.1 d17.14
+VisualStudioVersion = 17.14.37203.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "D3D11NvCodecApp", "D3D11NvCodecApp\D3D11NvCodecApp.vcxproj", "{5D92C693-349A-48DB-B191-33BDAC99CAB0}"
 EndProject
@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{64ADFB23-5E5E-404E-8024-C9AA2FAE013B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Modules\Core\Core\Core.vcxproj", "{E3BD70C4-FC37-4703-9A54-152FD00BDEA2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "..\..\Module\Core\Core\Core.vcxproj", "{E3BD70C4-FC37-4703-9A54-152FD00BDEA2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NvCodec", "Modules\NvCodec\NvCodec\NvCodec.vcxproj", "{A074873B-B8AE-4415-BCD0-0ED579EA6DCB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NvCodec", "..\..\Module\NvCodec\NvCodec\NvCodec.vcxproj", "{A074873B-B8AE-4415-BCD0-0ED579EA6DCB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

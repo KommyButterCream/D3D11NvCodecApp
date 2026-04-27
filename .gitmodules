@@ -1,6 +1,0 @@
-[submodule "Modules/Core"]
-	path = Modules/Core
-	url = https://github.com/KommyButterCream/Core.git
-[submodule "Modules/NvCodec"]
-	path = Modules/NvCodec
-	url = https://github.com/KommyButterCream/NvCodec.git
