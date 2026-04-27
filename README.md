@@ -6,8 +6,8 @@ A sample D3D11 application for integrating and testing the `NvCodec` DLL.
 This project is used to validate encode/decode workflows built on Direct3D 11 and the NVIDIA Video Codec SDK.
 
 # Dependencies
-- [Core](./Modules/Core) as a submodule
-- [NvCodec](./Modules/NvCodec) as a submodule
+- [Core](./Modules/Core)
+- [NvCodec](./Modules/NvCodec)
 
 # Build Environment
 - C++20
