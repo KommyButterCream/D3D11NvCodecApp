@@ -23,6 +23,7 @@ This project expects `NvCodec` and `Core` to be placed under the same parent dir
 
 Example:
 ```text
+D3D11NvCodecApp
 Module/
 ├─ Core/
 └─ NvCodec/
