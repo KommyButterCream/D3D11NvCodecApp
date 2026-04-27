@@ -8,6 +8,8 @@ This project is used to validate encode/decode workflows built on Direct3D 11 an
 # Dependencies
 - [Core](./Modules/Core)
 - [NvCodec](./Modules/NvCodec)
+- NVIDIA Video Codec SDK (v13.0.37)
+- NVIDIA CUDA Toolkit (v12.8)
 
 # Build Environment
 - C++20
