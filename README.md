@@ -16,16 +16,13 @@ This project is used to validate encode/decode workflows built on Direct3D 11 an
 - Direct3D 11
 
 # Notes
-- This repository uses `Core` and `NvCodec` as submodules.
-- `NvCodec` also depends on CUDA Toolkit and NVIDIA Video Codec SDK.
-- Make sure all submodules are initialized before building.
+- `NvCodec` depends on CUDA Toolkit and NVIDIA Video Codec SDK.
 
-# Clone
-- Clone submodules:
-```bash
-git clone --recurse-submodules https://github.com/KommyButterCream/D3D11NvCodecApp.git
-```
-- If already cloned without submodules:
-```bash
-git submodule update --init --recursive
-```
+# Repository Layout
+This project expects `NvCodec` and `Core` to be placed under the same parent directory.
+
+Example:
+```text
+Module/
+├─ Core/
+└─ NvCodec/
